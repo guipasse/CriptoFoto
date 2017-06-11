@@ -25,7 +25,8 @@ file system, so in order to perform this task, the application uses two cryptogr
 systems, one asymmetrical and another symmetrical, which work together to ensure the 
 security of these data and photographs.
 
+Enjoy it!!
 
-Guillem Pascual Serra
+The author: Guillem Pascual Serra
 
 For any comments or suggestions you can write me here... ktekesis@hotmail.com
