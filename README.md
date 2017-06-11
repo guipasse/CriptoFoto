@@ -24,3 +24,8 @@ The data and photographs log intrusions are also encrypted before being stored i
 file system, so in order to perform this task, the application uses two cryptographic 
 systems, one asymmetrical and another symmetrical, which work together to ensure the 
 security of these data and photographs.
+
+
+Guillem Pascual Serra
+
+For any comments or suggestions you can write me here... ktekesis@hotmail.com
