@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialLockView"><attr format="color" name="LOCK_COLOR"/><attr format="color" name="WRONG_COLOR"/><attr format="color" name="CORRECT_COLOR"/></declare-styleable>
+</resources>
