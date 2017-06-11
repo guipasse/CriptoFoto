@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_exit.png",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/drawable-mdpi/ic_exit.png"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_exit_menu.png",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/drawable-mdpi/ic_exit_menu.png"
+    }
+]

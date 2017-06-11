@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/criptofotolauncher.png",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/mipmap-xxxhdpi/criptofotolauncher.png"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_gallery_2.png",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/mipmap-xxxhdpi/ic_gallery_2.png"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

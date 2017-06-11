@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_intrusionregister.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_intrusionregister.xml"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_photo.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_photo.xml"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_newuser.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_newuser.xml"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_newrepo.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_newrepo.xml"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_login.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_login.xml"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_editrepo.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_editrepo.xml"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_edituser.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_edituser.xml"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_gallery.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_gallery.xml"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_main.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_main.xml"
+    },
+    {
+        "merged": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/build/intermediates/res/merged/debug/layout-land/content_selectrepo.xml",
+        "source": "/home/nexus/AndroidStudioProjects/CriptoFoto/app/src/main/res/layout-land/content_selectrepo.xml"
+    }
+]
