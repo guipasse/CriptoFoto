@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Autenticació d'usuari" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_menu"
+            android:title="Sortir de l'aplicació" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galeria" />
+        <item
+            android:id="@+id/nav_selectrepo"
+            android:icon="@drawable/ic_menu_gallery_2_24dp"
+            android:title="Selecció de repositori" />
+    </group>
+
+    <item android:title="Usuari" android:id="@+id/nav_user_group">
+        <menu>
+            <item
+                android:id="@+id/nav_newuser"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="Crear usuari" />
+            <item
+                android:id="@+id/nav_edituser"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Modificar usuari" />
+            <item
+                android:id="@+id/nav_intrusionregister"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Registre d'intrusions" />
+            <item
+                android:id="@+id/nav_exit_session"
+                android:icon="@drawable/ic_exit_menu"
+                android:title="Tancar sessió" />
+        </menu>
+    </item>
+
+    <item android:title="Repositori" android:id="@+id/nav_repo_group" android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_newrepo"
+                android:icon="@drawable/ic_add_repository_24dp"
+                android:title="Crear repositori" />
+            <item
+                android:id="@+id/nav_editrepo"
+                android:icon="@drawable/ic_photo_size_select_actual_black_24dp"
+                android:title="Modificar repositori" />
+        </menu>
+    </item>
+
+</menu>

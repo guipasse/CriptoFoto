@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tfm.uoc.edu.criptofoto.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Tipus de clau"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <RadioButton
+        android:id="@+id/radioLoginButtonTextKeyType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:checked="true"
+        android:onClick="clickLoginKeyTextType"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.200" />
+
+    <RadioButton
+        android:id="@+id/radioLoginButtonPINKeyType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIN"
+        android:onClick="clickLoginKeyPINType"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.200" />
+
+    <RadioButton
+        android:id="@+id/radioLoginButtonPatternKeyType"
+        android:layout_width="76dp"
+        android:layout_height="31dp"
+        android:text="Patró"
+        android:onClick="clickLoginKeyPatternType"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.200"
+        app:layout_constraintHorizontal_bias="0.668"  />
+
+    <TextView
+        android:id="@+id/keyLoginText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Clau"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <EditText
+        android:id="@+id/loginPasswordText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <EditText
+        android:id="@+id/loginPasswordPIN"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597" />
+
+    <com.amnix.materiallockview.MaterialLockView
+        xmlns:lockview="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/patternLogin"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        lockview:LOCK_COLOR="#3F51B5"
+        lockview:WRONG_COLOR="#ff0000"
+        lockview:CORRECT_COLOR="#00ff00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        lockview:layout_constraintVertical_bias="0.774" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="Autenticar"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:id="@+id/buttonlogin"
+        android:onClick="autenticateUser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+</android.support.constraint.ConstraintLayout>
